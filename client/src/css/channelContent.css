@@ -1,0 +1,11 @@
+.channel_content .video_content .video  {
+    display: flex;
+    font-size: 13px;
+}
+.channel_content .video_content .video span {
+    margin-left: 20px;
+}
+.channel_content .video_content .video .channel_video {
+    width:120px;
+    
+}

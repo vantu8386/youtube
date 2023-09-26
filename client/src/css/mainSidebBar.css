@@ -1,0 +1,303 @@
+.root .content_wrapper .all-content {
+  margin-top: 60px;
+}
+
+/* ---------------------thanh cuộn-------------------- */
+.root .content_wrapper .all-content .overflow-y-auto {
+  overflow-y: auto;
+  max-height: 100vh;
+  padding: 16px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.root .content_wrapper .all-content .overflow-y-auto h3 {
+  font-size: 20px;
+  padding-left: 8px;
+  padding-bottom: 5px;
+  color: #555;
+}
+
+/* Thiết lập kích thước của thanh cuộn */
+.root .content_wrapper .all-content .overflow-y-auto::-webkit-scrollbar {
+  width: 5px;
+  display: none; /* Ẩn thanh cuộn ban đầu */
+}
+
+/* Thiết lập màu sắc của thanh cuộn và đầu hình tròn */
+.root .content_wrapper .all-content .overflow-y-auto::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px; /* Đặt bán kính để tạo đầu hình tròn */
+  padding-right: 10px; /* Tạo khoảng trống bên phải cho thanh cuộn */
+}
+
+/* Hiển thị thanh cuộn khi di chuột vào phần tử */
+.root .content_wrapper .all-content .overflow-y-auto:hover::-webkit-scrollbar {
+  display: block; /* Hiển thị thanh cuộn khi di chuột vào */
+}
+
+/* Thiết lập màu sắc khi di chuột vào thanh cuộn */
+.root .content_wrapper .all-content .overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* --------------------- sidebar ----------------------------- */
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .style_scope_ytb
+  .sidebar_content {
+  display: flex;
+  align-items: center;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .style_scope_ytb
+  .sidebar_content:hover {
+  background-color: #eeeeee;
+  padding: 8px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .style_scope_ytb
+  .sidebar_content
+  .avatar_ytb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .style_scope_ytb
+  .sidebar_content
+  .ytb_text {
+  padding-left: 30px;
+}
+
+/* --------------Subscribe channel----------------- */
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .kenh_dang_ki
+  .sidebar_content {
+  display: flex;
+  align-items: center;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .kenh_dang_ki
+  .sidebar_content:hover {
+  background-color: #eeeeee;
+  padding: 8px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .kenh_dang_ki
+  .sidebar_content
+  .avatar_ytb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .kenh_dang_ki
+  .sidebar_content
+  .ytb_text {
+  padding-left: 30px;
+}
+
+/* -------------------khám phá------------------- */
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .kham_pha
+  .sidebar_content {
+  display: flex;
+  align-items: center;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .kham_pha
+  .sidebar_content:hover {
+  background-color: #eeeeee;
+  padding: 8px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .kham_pha
+  .sidebar_content
+  .avatar_ytb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .kham_pha
+  .sidebar_content
+  .ytb_text {
+  padding-left: 30px;
+}
+
+/* ------------------Dịch vụ khác của You Tube------------ */
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .other_YouTube_services
+  .sidebar_content {
+  display: flex;
+  align-items: center;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .other_YouTube_services
+  .sidebar_content:hover {
+  background-color: #eeeeee;
+  padding: 8px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .other_YouTube_services
+  .sidebar_content
+  .avatar_ytb {
+  width: 40px;
+  text-align: center;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .other_YouTube_services
+  .sidebar_content
+  .ytb_text {
+  padding-left: 30px;
+}
+/* ------------------------setting--------------------------- */
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .setting_ytb
+  .sidebar_content {
+  display: flex;
+  align-items: center;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .setting_ytb
+  .sidebar_content:hover {
+  background-color: #eeeeee;
+  padding: 8px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .setting_ytb
+  .sidebar_content
+  .avatar_ytb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.root
+  .content_wrapper
+  .all-content
+  .content_side_bar .content_ytb
+  .setting_ytb
+  .sidebar_content
+  .ytb_text {
+  padding-left: 30px;
+}
+
+/* -------------gioi_thieu------------- */
+.root .content_wrapper .all-content .content_side_bar .content_ytb .gioi_thieu p:nth-child(1){
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+}
+
+.root .content_wrapper .all-content .content_side_bar .content_ytb .gioi_thieu p:nth-child(2){
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+}
+
+.root .content_wrapper .all-content .content_side_bar .content_ytb .gioi_thieu p:nth-child(3){
+  font-weight: 100;
+  font-size: 14px;
+  color: #888;
+}
